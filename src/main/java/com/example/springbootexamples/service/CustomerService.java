@@ -10,7 +10,7 @@ import java.util.Optional;
 @Service
 public class CustomerService implements CustomerServiceInterface{
 
-    CustomerRepository customerRepository;  // Constructor injection is favoured over @Autowired injection
+    CustomerRepository customerRepository;  // Constructor injection is favored over @Autowired injection
 
     public CustomerService(CustomerRepository customerRepository) {
         this.customerRepository = customerRepository;
